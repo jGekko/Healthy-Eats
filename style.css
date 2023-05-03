@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  width:100%;
+}
+
+.card-body {
+  padding:10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  width:100%;
+}
+
+.card-body {
+  padding:10px;
+}
+
+.column:nth-child(2) img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+li span { font-weight: normal; }
